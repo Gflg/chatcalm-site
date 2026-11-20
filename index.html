@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ChatCalm oculta avisos de resgate de Pontos do Canal no chat da Twitch, com processamento local e sem transmissão de dados.">
+    <meta name="theme-color" content="#121820">
+    <title>ChatCalm — menos ruído no chat da Twitch</title>
+    <link rel="icon" href="assets/icon.png" type="image/png">
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Página inicial do ChatCalm">
+        <img src="assets/icon.png" width="44" height="44" alt="">
+        <span>ChatCalm</span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#como-funciona">Como funciona</a>
+        <a href="privacy.html">Privacidade</a>
+        <a href="https://github.com/Gflg/chatcalm-site/issues">Suporte</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="eyebrow">Extensão para navegador</div>
+        <h1>Menos avisos.<br>Mais conversa.</h1>
+        <p class="lead">O ChatCalm remove avisos de resgate de Pontos do Canal da sua visualização do chat da Twitch. Os resgates continuam funcionando normalmente.</p>
+        <div class="badges" aria-label="Características principais">
+          <span>Processamento local</span>
+          <span>Sem anúncios</span>
+          <span>Sem conta</span>
+        </div>
+      </section>
+
+      <section id="como-funciona" class="section">
+        <div class="section-heading">
+          <span>Como funciona</span>
+          <h2>Uma função clara e limitada</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <span class="number">01</span>
+            <h3>Observa o chat</h3>
+            <p>A extensão funciona somente em páginas da Twitch e examina localmente os elementos visíveis do chat.</p>
+          </article>
+          <article>
+            <span class="number">02</span>
+            <h3>Reconhece os avisos</h3>
+            <p>Os avisos de resgate de Pontos do Canal são identificados e ocultados apenas no navegador de quem instalou a extensão.</p>
+          </article>
+          <article>
+            <span class="number">03</span>
+            <h3>Você mantém o controle</h3>
+            <p>Um único controle permite ligar ou desligar o filtro. Mensagens comuns continuam aparecendo.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="privacy-callout" aria-labelledby="privacy-title">
+        <div>
+          <span>Privacidade por padrão</span>
+          <h2 id="privacy-title">O conteúdo fica no seu navegador.</h2>
+        </div>
+        <div>
+          <p>O ChatCalm não transmite mensagens, nomes de usuário ou histórico de navegação para o desenvolvedor ou para terceiros. A única informação armazenada é a preferência de manter o filtro ligado ou desligado.</p>
+          <a class="text-link" href="privacy.html">Ler a política de privacidade</a>
+        </div>
+      </section>
+
+      <section class="section compact">
+        <div class="section-heading">
+          <span>Transparência</span>
+          <h2>Permissões mínimas</h2>
+        </div>
+        <dl class="permissions">
+          <div>
+            <dt><code>storage</code></dt>
+            <dd>Salva localmente apenas se o filtro está ligado ou desligado.</dd>
+          </div>
+          <div>
+            <dt><code>https://www.twitch.tv/*</code></dt>
+            <dd>Permite identificar e ocultar avisos dentro do chat da Twitch. Nenhum outro site é acessado.</dd>
+          </div>
+        </dl>
+      </section>
+    </main>
+
+    <footer>
+      <div class="brand footer-brand">
+        <img src="assets/icon.png" width="32" height="32" alt="">
+        <span>ChatCalm</span>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Política de privacidade</a>
+        <a href="https://github.com/Gflg/chatcalm-site/issues">Suporte</a>
+      </div>
+      <p>ChatCalm não é afiliado, patrocinado ou endossado pela Twitch.</p>
+    </footer>
+  </body>
+</html>
